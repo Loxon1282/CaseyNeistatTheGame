@@ -12,7 +12,7 @@ public class EnemyDRONE_2 : MonoBehaviour {
 	}
 
 	void Update () {
-		transform.position = new Vector2(transform.position.x,Mathf.Sin(Time.deltaTime*20.0f)/20+startPos.y)+Vector2.left*droneSpeed;
+		transform.position = new Vector2(transform.position.x,Mathf.Sin(Time.deltaTime/6)*50+startPos.y)+Vector2.left*droneSpeed;
 	}
 
 }
