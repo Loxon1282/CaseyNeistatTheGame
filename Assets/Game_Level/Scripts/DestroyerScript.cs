@@ -14,7 +14,7 @@ public class DestroyerScript : MonoBehaviour {
 		
 	}
 	void OnTriggerEnter2D(Collider2D other){
-		Debug.Log ("PENIS");
+		Debug.Log ("DESTROYER_DESTROY");
 		Destroy (other.gameObject);
 	}
 }
